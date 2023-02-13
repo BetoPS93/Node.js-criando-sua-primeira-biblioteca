@@ -25,6 +25,7 @@ async function pegaArquivo(caminhoDoArquivo) {
 }
 
 /* Promises com then()
+
  function pegaArquivo(caminhoDoArquivo) {
   const encoding = "utf-8";
   fs.promises
@@ -43,4 +44,4 @@ async function pegaArquivo(caminhoDoArquivo) {
   });
 } */
 
-pegaArquivo("./arquivos/texto.md");
+export default pegaArquivo;
